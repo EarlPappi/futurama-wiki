@@ -44,7 +44,7 @@ const CharacterDetails = ({ characters }) => {
 
     useEffect(() => {
         fetchCharacter()
-    }, []);
+    });
 
     console.log(singleCharacter)
 
