@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #3B7080;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3% 0px;
+}
+
+.header-h1, .header-h2{
+    color: #B1EDE8;
+    text-align: center;
+}
+
+.header-h1{
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+    margin-bottom: 5px;
+}
+
+.header-h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.search-bar{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.search-bar form{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.search-bar form input{
+    width: 80%;
+    background-color: rgba(217, 217, 217, 0.50);
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 100px;
+}
+
+.search-bar form button{
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.character-list{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.character-card div{
+    min-height: 420px;
+    max-height: 420px;
+    background-color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    align-self: baseline;
+    margin-bottom: 10px;
+}
+.character-card div img{
+    max-height: 420px;
+
+}
+
+.loading-p{
+    color: white;
+    letter-spacing: 0.2em;
+}
+
+.l{
+    font-size: 1.3em;
+}
+
+.character-detail-con{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.charater-detail-img img{
+    transform: scale(120%);
+    z-index: 2;
+}
+
+.charater-detail-text{
+    background-color: #b1ede82d;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li{
+    list-style-type: none;
+    margin: 15px;
+
+}
+
+li span{
+    color: whitesmoke;
+    font-size: 1.4em;
+    font-style: italic;
+
+}
+
+.go-back{
+    display: block;
+    z-index: 300000000000000;
+    cursor: pointer;
+    background-color: white;
+    color: #3B7080;
+    font-weight: 600;
+    text-decoration: none;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    text-align: center;
+    padding: 10px 0;
+}
+.quotes{
+    list-style-type: circle;
+}
+
+
+
+
