@@ -122,9 +122,9 @@ li{
 
 }
 
-li span{
-    color: whitesmoke;
-    font-size: 1.4em;
+li span{    
+    font-weight: 300;
+    font-size: 1em;
     font-style: italic;
 
 }
@@ -144,7 +144,19 @@ li span{
     padding: 10px 0;
 }
 .quotes{
-    list-style-type: circle;
+    list-style-type: square;
+    
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.character-quote-title{
+    font-weight: 300;
+    font-size: 1em;
+    border: #3B7080 2px solid;
+    padding: 5px;
+    background-color: #679e99;
+
 }
 
 

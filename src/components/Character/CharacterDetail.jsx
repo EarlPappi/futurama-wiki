@@ -30,8 +30,6 @@ const CharacterDetails = ({ characters }) => {
             quotes: data.sayings
         };
 
-        console.log(characterRef);
-
         setSingleCharacter(characterRef);
         // setError(false);
         // setIsLoading(false)
@@ -44,9 +42,7 @@ const CharacterDetails = ({ characters }) => {
 
     useEffect(() => {
         fetchCharacter()
-    });
-
-    console.log(singleCharacter)
+    }, []);
 
 
     return (
@@ -67,7 +63,7 @@ const CharacterDetails = ({ characters }) => {
                         <li>Species: <span>{singleCharacter.species}</span></li>
                     </ul>
 
-                    <h2>Quotes: </h2>
+                    <h2 className="character-quote-title">{singleCharacter.first_name} Quotes: </h2>
 
                     { singleCharacter.quotes && singleCharacter.quotes.map((quote)=>{
                         return (<li className="quotes">{ quote }</li>)
