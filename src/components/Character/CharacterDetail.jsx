@@ -10,7 +10,7 @@ const CharacterDetails = ({ characters }) => {
     // const [isLoading, setIsLoading] = useState(true);
     // const [error, setError] = useState(true)
 
-    const fetchCharacter = async () => {
+    const fetchCharacter =  async () => {
         const res = await fetch(`https://api.sampleapis.com/futurama/characters/${id}`);
 
         // if(!res.ok){
