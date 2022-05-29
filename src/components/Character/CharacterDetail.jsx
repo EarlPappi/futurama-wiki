@@ -42,7 +42,7 @@ const CharacterDetails = ({ characters }) => {
 
     useEffect(() => {
         fetchCharacter()
-    }, []);
+    });
 
 
     return (
